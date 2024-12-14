@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parallex1{
+            width: 100%;
+            height: 400px;
+            background-image: url('./yeah\ man.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center top;
+        }
+        .parallex1 h2{
+            font-family: Arial, Helvetica, sans-serif;
+            height: fit-content;
+            width: fit-content;
+            position: relative;
+            top: 30px;
+            left: 45%;
+            color: rgb(76, 31, 199);
+            font-size: larger;
+            font-weight: 400;
+            text-align: center;
+            background-color: brown;
+        }
+        .parallex2{
+            width: 100%;
+            height: 400px;
+            background-image: url('./that.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center center;
+        }
+        .parallex2 h2{
+            font-family: Arial, Helvetica, sans-serif;
+            height: fit-content;
+            width: fit-content;
+            position: relative;
+             top: 30px;
+             left: 45%;
+             color: rgb(76, 31, 199);
+            color: white;
+            font-size: larger;
+            font-weight: 400;
+            text-align: center;
+            background-color: brown;
+        }
+        .para1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            color: aliceblue;
+            font-weight: bold ;
+            text-align: justify;
+            background-color: black;
+        }
+        .para2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: larger;
+            color: aliceblue;
+            font-weight: bold ;
+            text-align: justify;
+            background-color: black;
+        }
+        @media screen and (max-width: 480px) {
+            .parallex1, .parallex2 {
+                height: 200px;
+            }
+
+            .parallex1 h2, .parallex2 h2 {
+                font-size: 1rem;
+                top: 10px;
+            }
+
+            .para1, .para2 {
+                font-size: 0.8rem;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parallex1">
+        <h2>Bhavit Mehta</h2>
+    </div>
+    <div class="para1">
+        <p>here it is what you are looking for that it is the foresome play everyone is thre Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis odit maiores doloribus fugit cupiditate nam culpa sunt itaque quidem? Fugit aperiam, debitis illum rerum <br>incidunt repellendus hic magnam sapiente libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit optio <br>perferendis iure nihil numquam praesentium amet aliquam dolor consectetur explicabo ducimus hic cupiditate, a laboriosam deserunt, qui commodi eaque. Quos?</p>
+    </div>
+    <div class="parallex2">
+        <h2>His projects</h2>
+    </div>
+    <div class="para2">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta reiciendis eaque tempore iste impedit? Nihil asperiores quas ullam ab, explicabo quis deleniti sint voluptatum quibusdam illum suscipit aliquam accusamus mollitia!<br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, fuga perspiciatis quas vero praesentium, dolorum quis eaque, sint pariatur cum cupiditate? In ipsum a cumque laboriosam similique deleniti minus pariatur. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto hic ut molestias omnis, accusamus asperiores laborum autem itaque aliquid labore magnam necessitatibus nulla et consectetur voluptatibus blanditiis aut veniam a.</p>
+    </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .parallex1, .parallex2 {
+            width: 100%;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .parallex1 {
+            background-image: url('./yeah man.jpg');
+        }
+
+        .parallex2 {
+            background-image: url('./that.jpg');
+        }
+
+        .parallex1 h2, .parallex2 h2 {
+            color: white;
+            font-size: 2rem;
+            font-weight: 400;
+            text-align: center;
+            background-color: rgba(128, 0, 0, 0.7); /* Semi-transparent background */
+            padding: 10px 20px;
+            border-radius: 8px;
+        }
+
+        .content {
+            font-size: 1rem;
+            color: #f0f0f0;
+            font-weight: bold;
+            text-align: justify;
+            background-color: black;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- First Parallax Section -->
+    <!-- <div class="parallex1">
+        <h2>Bhavit Mehta</h2>
+    </div> -->
+
+    <!-- Content Section -->
+    <!-- <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis odit maiores doloribus fugit cupiditate nam culpa sunt itaque quidem? Fugit aperiam, debitis illum rerum incidunt repellendus hic magnam sapiente libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit optio perferendis iure nihil numquam praesentium amet aliquam dolor consectetur explicabo ducimus hic cupiditate, a laboriosam deserunt, qui commodi eaque. Quos?</p>
+    </div> -->
+
+    <!-- Second Parallax Section -->
+    <!-- <div class="parallex2">
+        <h2>His Projects</h2>
+    </div> -->
+
+    <!-- Content Section -->
+    <!-- <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta reiciendis eaque tempore iste impedit? Nihil asperiores quas ullam ab, explicabo quis deleniti sint voluptatum quibusdam illum suscipit aliquam accusamus mollitia! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, fuga perspiciatis quas vero praesentium, dolorum quis eaque, sint pariatur cum cupiditate? In ipsum a cumque laboriosam similique deleniti minus pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto hic ut molestias omnis, accusamus asperiores laborum autem itaque aliquid labore magnam necessitatibus nulla et consectetur voluptatibus blanditiis aut veniam a.</p>
+    </div> -->
+<!-- </body>
+</html> --> -->
